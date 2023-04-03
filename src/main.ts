@@ -54,19 +54,19 @@ WA.onInit().then(() => {
 	
 	//Popup Feder
 	WA.room.area.onEnter('feather').subscribe(() => {
-        currentPopup = WA.ui.openPopup("Popup_feather","Du hast eine Feder gefunden...",[{
+        currentPopup = WA.ui.openPopup("Popup_feather","You have found a feather...",[{
 			label: "Next",
 			className: "primary",
 			callback: () => {
 				// Close the popup when the "Close" button is pressed.
 				closePopup();
-				currentPopup = WA.ui.openPopup("Popup_feather","Du hast Deine eGK und Dein Smartphone verloren...",[{
+				currentPopup = WA.ui.openPopup("Popup_feather","You have lost your eGK and your smartphone...",[{
 					label: "Next",
 					className: "primary",
 					callback: () => {
 						// Close the popup when the "Close" button is pressed.
 						closePopup();
-						currentPopup = WA.ui.openPopup("Popup_feather","Vielleicht kann Dir die Rezeption weiter helfen...",[{
+						currentPopup = WA.ui.openPopup("Popup_feather","Maybe the reception can help you...",[{
 							label: "Close",
 							className: "primary",
 							callback: () => {
@@ -84,38 +84,38 @@ WA.onInit().then(() => {
 	
 	//Popup eGK
 	WA.room.area.onEnter('erinnerung').subscribe(() => {
-        currentPopup = WA.ui.openPopup("Popup_erinnerung","Wenn ich mich nur an gestern Nacht erinnern könnte...",[]);
+        currentPopup = WA.ui.openPopup("Popup_erinnerung","If only I could remember last night...",[]);
     })
     WA.room.area.onLeave('erinnerung').subscribe(closePopup) 
 
 	
 	//Popup rezeption
 	WA.room.area.onEnter('rezeption').subscribe(() => {		
-        currentPopup = WA.ui.openPopup("Popup_rezeption","Hallo! wir haben Deine eGK und Dein Smartphone leider nicht bei Dir finden können...",[{
+        currentPopup = WA.ui.openPopup("Popup_rezeption","Hello! Unfortunately, we have not been able to find your eGK and your smartphone....",[{
 			label: "Next",
 			className: "primary",
 			callback: () => {
 				// Close the popup when the "Close" button is pressed.
 				closePopup();
-				currentPopup = WA.ui.openPopup("Popup_rezeption","Anscheinend hast Du auch Deine analoge Patientenakte verloren...",[{
+				currentPopup = WA.ui.openPopup("Popup_rezeption","Apparently you have also lost your analogue patient file...",[{
 					label: "Next",
 					className: "primary",
 					callback: () => {
 						// Close the popup when the "Close" button is pressed.
 						closePopup();
-						currentPopup = WA.ui.openPopup("Popup_rezeption","Wenn wir Deine analoge Patientenakte hätten, könnten wir Dir sagen, was gestern Abend passiert ist...",[{
+						currentPopup = WA.ui.openPopup("Popup_rezeption","If we had your analogue patient file, we could tell you what happened last night...",[{
 							label: "Next",
 							className: "primary",
 							callback: () => {
 								// Close the popup when the "Close" button is pressed.
 								closePopup();
-								currentPopup = WA.ui.openPopup("Popup_rezeption","Wir empfehlen die Nutzung der ePA, damit kannst Du deine Patientenakte digital einsehen...",[{
+								currentPopup = WA.ui.openPopup("Popup_rezeption","We recommend the use of the ePA, which allows you to view your patient file digitally....",[{
 									label: "Next",
 									className: "primary",
 									callback: () => {
 										// Close the popup when the "Close" button is pressed.
 										closePopup();
-										currentPopup = WA.ui.openPopup("Popup_rezeption","Dafür benötigst Du aber die drei verloren Komponenten...",[{
+										currentPopup = WA.ui.openPopup("Popup_rezeption","But for this you need the three lost components...",[{
 											label: "Close",
 											className: "primary",
 											callback: () => {
@@ -141,7 +141,7 @@ WA.onInit().then(() => {
 	
 	//Popup Apotheke
 	WA.room.area.onEnter('apotheke').subscribe(() => {
-        currentPopup = WA.ui.openPopup("Popup_Apotheke","Jeder weiss, dass man die Schätze vom ePAirat mit LostMyPass knacken kann...",[]);
+        currentPopup = WA.ui.openPopup("Popup_Apotheke","Everyone knows that you can crack the treasures from the ePAirat with LostMyPass...",[]);
     })
     WA.room.area.onLeave('apotheke').subscribe(closePopup)
 	
@@ -153,7 +153,7 @@ WA.onInit().then(() => {
 
 	//Popup Matrose
 	WA.room.area.onEnter('matrose').subscribe(() => {
-        currentPopup = WA.ui.openPopup("Popup_matrose","Hast Du eine Reservierungsnummer? Mir reicht auch unser E-Mail Absender...",[]);
+        currentPopup = WA.ui.openPopup("Popup_matrose","Do you have a reservation number? Our e-mail sender is also sufficient for me...",[]);
     })
     WA.room.area.onLeave('matrose').subscribe(closePopup)
 
