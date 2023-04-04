@@ -12206,7 +12206,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"tag",
+                 "name":"#tag",
                  "type":"string",
                  "value":"keymaster"
                 }],
