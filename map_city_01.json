@@ -11537,7 +11537,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":401.666666666667,
                  "id":8,
                  "name":"DiscoMusic",
@@ -11558,35 +11557,35 @@
                          "value":"OntheBeat.mp3"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":599.666666666666,
                  "x":262.333333333333,
                  "y":1033.33333333333
                 }, 
                 {
-                 "class":"area",
                  "height":84,
                  "id":25,
                  "name":"feather",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":61,
                  "x":147,
                  "y":213.25
                 }, 
                 {
-                 "class":"",
                  "height":108.5,
                  "id":26,
                  "name":"Popup_feather",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":203.5,
                  "x":81,
                  "y":98.75
                 }, 
                 {
-                 "class":"area",
                  "height":128.333333333333,
                  "id":27,
                  "name":"Parrot",
@@ -11612,13 +11611,13 @@
                          "value":"modem.mp3"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":101.666666666667,
                  "x":703.666666666667,
                  "y":386.333333333333
                 }, 
                 {
-                 "class":"area",
                  "height":80.6666666666666,
                  "id":31,
                  "name":"epairat",
@@ -11644,35 +11643,35 @@
                          "value":"parrot.mp3"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":91.9583333333333,
                  "x":1322.83333333333,
                  "y":474.75
                 }, 
                 {
-                 "class":"area",
                  "height":67.9999999999999,
                  "id":32,
                  "name":"apotheke",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":90.333333333333,
                  "x":1207.33333333333,
                  "y":454.333333333333
                 }, 
                 {
-                 "class":"",
                  "height":76.3333333333334,
                  "id":35,
                  "name":"Popup_Apotheke",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":142,
                  "x":1198,
                  "y":327
                 }, 
                 {
-                 "class":"area",
                  "height":90.6666666666667,
                  "id":36,
                  "name":"barkeeper",
@@ -11683,46 +11682,46 @@
                          "value":"html\/651651.html"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":167,
                  "x":285.333333333333,
                  "y":1128.33333333333
                 }, 
                 {
-                 "class":"area",
                  "height":127.333333333333,
                  "id":41,
                  "name":"dj",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":158.666666666667,
                  "x":545.333333333333,
                  "y":1090.33333333333
                 }, 
                 {
-                 "class":"",
                  "height":89.3333333333334,
                  "id":42,
                  "name":"Popup_dj",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":175.666666666667,
                  "x":539,
                  "y":996.666666666667
                 }, 
                 {
-                 "class":"area",
                  "height":408.167,
                  "id":45,
                  "name":"DiscoRoom",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":596.666333333333,
                  "x":265.666833333333,
                  "y":1032.99983333333
                 }, 
                 {
-                 "class":"area",
                  "height":37.4545,
                  "id":46,
                  "name":"egk",
@@ -11733,13 +11732,13 @@
                          "value":"html\/232453.html"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":71.5909,
                  "x":396.515833333333,
                  "y":1317.71983333333
                 }, 
                 {
-                 "class":"area",
                  "height":95.0833333333333,
                  "id":47,
                  "name":"smartphone",
@@ -11750,35 +11749,35 @@
                          "value":"html\/845111.html"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":69.7500000000002,
                  "x":1113.58333333333,
                  "y":1530.33333333333
                 }, 
                 {
-                 "class":"area",
                  "height":41.9999999999998,
                  "id":49,
                  "name":"matrose",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":66.3333333333333,
                  "x":431.333333333333,
                  "y":2047.33333333333
                 }, 
                 {
-                 "class":"",
                  "height":96.3333333333335,
                  "id":50,
                  "name":"Popup_matrose",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":160.666666666667,
                  "x":384.333333333333,
                  "y":1915.66666666667
                 }, 
                 {
-                 "class":"area",
                  "height":91.5,
                  "id":51,
                  "name":"fischladen",
@@ -11789,13 +11788,13 @@
                          "value":"html\/846855.html"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":111.75,
                  "x":1199.5,
                  "y":1539.75
                 }, 
                 {
-                 "class":"area",
                  "height":68,
                  "id":52,
                  "name":"Captain",
@@ -11806,13 +11805,13 @@
                          "value":"html\/158669.html"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":53,
                  "x":754.5,
                  "y":2541
                 }, 
                 {
-                 "class":"area",
                  "height":83,
                  "id":53,
                  "name":"intro",
@@ -11823,57 +11822,57 @@
                          "value":"html\/165895.html"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":125.666666666667,
                  "x":112.666666666667,
                  "y":128.666666666667
                 }, 
                 {
-                 "class":"area",
                  "height":83.5,
                  "id":58,
                  "name":"rezeption",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":158.5,
                  "x":608.5,
                  "y":267
                 }, 
                 {
-                 "class":"",
                  "height":104,
                  "id":59,
                  "name":"Popup_rezeption",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":289.5,
                  "x":535.5,
                  "y":159
                 }, 
                 {
-                 "class":"area",
                  "height":187,
                  "id":60,
                  "name":"erinnerung",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":148,
                  "x":305.5,
                  "y":177.5
                 }, 
                 {
-                 "class":"",
                  "height":108.5,
                  "id":62,
                  "name":"Popup_erinnerung",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":203.5,
                  "x":276.25,
                  "y":99.25
                 }, 
                 {
-                 "class":"area",
                  "height":1218,
                  "id":63,
                  "name":"waves",
@@ -11894,13 +11893,13 @@
                          "value":"waves.mp3"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":1604,
                  "x":-2,
                  "y":1984
                 }, 
                 {
-                 "class":"area",
                  "height":172,
                  "id":64,
                  "name":"tierx",
@@ -11911,6 +11910,7 @@
                          "value":"html\/889631.html"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":216,
                  "x":366,
@@ -11928,7 +11928,6 @@
          "name":"configuration",
          "objects":[
                 {
-                 "class":"variable",
                  "height":0,
                  "id":3,
                  "name":"DiscoDoor",
@@ -11965,13 +11964,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":720.333333333333,
                  "y":1447
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":4,
                  "name":"FischladenDoor",
@@ -12008,13 +12007,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1166.75,
                  "y":1719
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":5,
                  "name":"BeachDoor",
@@ -12051,35 +12050,35 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":526.5,
                  "y":2006.5
                 }, 
                 {
-                 "class":"area",
                  "height":375.833333333333,
                  "id":10,
                  "name":"ApothekeRoom",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":284,
                  "x":1185.5,
                  "y":323
                 }, 
                 {
-                 "class":"area",
                  "height":251,
                  "id":15,
                  "name":"FischladenRoom",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":246,
                  "x":1093,
                  "y":1478.5
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":19,
                  "name":"ApothekeDoor",
@@ -12116,13 +12115,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1293.5,
                  "y":701
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":20,
                  "name":"SchiffDoor",
@@ -12159,6 +12158,7 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":686.333333333333,
@@ -12167,7 +12167,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"tag",
+                 "name":"#tag",
                  "type":"string",
                  "value":"keymaster"
                 }],
@@ -13297,7 +13297,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.10.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -52136,6 +52136,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":50
 }
